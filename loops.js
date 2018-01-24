@@ -18,4 +18,4 @@ if(i===1) {
  
  function doWhileLoop(array) {
    do {
- } while ( array.length > 0 && maybeTrue() . )
+ } while ( array.length > 0 && maybeTrue())
