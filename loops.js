@@ -16,13 +16,15 @@ if(i===1) {
    return 'done';
  }
  
- 
+ function maybeTrue() {
+  return Math.random() >= 0.5;
+}
  
  function doWhileLoop(array) {
    do {
-     array.pop()
+     array.pop();
  } while ( array.length > 0 && maybeTrue())
-return array
+return array;
    
  }
 
